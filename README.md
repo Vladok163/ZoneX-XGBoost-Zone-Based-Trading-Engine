@@ -67,7 +67,28 @@ text
 
 ---
 
-## 📁 Project Structure
+ZoneX/
+├── pattern_lab/ # Pattern Detection R&D
+│ ├── pattern_engine.py # Structural TA figure detector
+│ ├── calibrate.py # Grid search for optimal parameters
+│ ├── build_ml_dataset_v2.py # Feature extraction (33 features)
+│ ├── download_data.py # Multi-symbol OHLCV fetcher
+│ └── visualize.py # Pattern visualization (mplfinance)
+│
+├── research/ # Statistical Research Suite
+│ ├── 01_nonlinear_zones.py
+│ ├── 02_interactions.py
+│ ├── 03_regime_dependence.py
+│ ├── 04_archetypes.py
+│ ├── 05_timeframe_physics.py
+│ ├── 06_probability_calibration.py
+│ ├── 07_stability.py
+│ ├── 08_feature_drift.py
+│ └── 09_final_report.py
+│
+├── requirements.txt
+├── LICENSE
+└── README.md
 
 
 ---
