@@ -1,0 +1,206 @@
+{
+  "calibration": [
+    {
+      "threshold": 0.3,
+      "predicted_p": 0.65,
+      "actual_wr": 0.4541,
+      "n": 39932,
+      "bias": -0.1959,
+      "status": "❌ UNDER"
+    },
+    {
+      "threshold": 0.35,
+      "predicted_p": 0.68,
+      "actual_wr": 0.4541,
+      "n": 39932,
+      "bias": -0.2259,
+      "status": "❌ UNDER"
+    },
+    {
+      "threshold": 0.4,
+      "predicted_p": 0.7,
+      "actual_wr": 0.4515,
+      "n": 26590,
+      "bias": -0.2485,
+      "status": "❌ UNDER"
+    },
+    {
+      "threshold": 0.45,
+      "predicted_p": 0.72,
+      "actual_wr": 0.4515,
+      "n": 26590,
+      "bias": -0.2685,
+      "status": "❌ UNDER"
+    },
+    {
+      "threshold": 0.5,
+      "predicted_p": 0.75,
+      "actual_wr": 0.4515,
+      "n": 26590,
+      "bias": -0.2985,
+      "status": "❌ UNDER"
+    },
+    {
+      "threshold": 0.55,
+      "predicted_p": 0.77,
+      "actual_wr": 0.4564,
+      "n": 14818,
+      "bias": -0.3136,
+      "status": "❌ UNDER"
+    },
+    {
+      "threshold": 0.6,
+      "predicted_p": 0.8,
+      "actual_wr": 0.4564,
+      "n": 14818,
+      "bias": -0.3436,
+      "status": "❌ UNDER"
+    },
+    {
+      "threshold": 0.65,
+      "predicted_p": 0.82,
+      "actual_wr": 0.4638,
+      "n": 7160,
+      "bias": -0.3562,
+      "status": "❌ UNDER"
+    },
+    {
+      "threshold": 0.7,
+      "predicted_p": 0.85,
+      "actual_wr": 0.4638,
+      "n": 7160,
+      "bias": -0.3862,
+      "status": "❌ UNDER"
+    },
+    {
+      "threshold": 0.75,
+      "predicted_p": 0.88,
+      "actual_wr": 0.4532,
+      "n": 2723,
+      "bias": -0.4268,
+      "status": "❌ UNDER"
+    },
+    {
+      "threshold": 0.8,
+      "predicted_p": 0.9,
+      "actual_wr": 0.4532,
+      "n": 2723,
+      "bias": -0.4468,
+      "status": "❌ UNDER"
+    },
+    {
+      "threshold": 0.85,
+      "predicted_p": 0.92,
+      "actual_wr": 0.417,
+      "n": 717,
+      "bias": -0.503,
+      "status": "❌ UNDER"
+    },
+    {
+      "threshold": 0.9,
+      "predicted_p": 0.95,
+      "actual_wr": 0.5211,
+      "n": 71,
+      "bias": -0.4289,
+      "status": "❌ UNDER"
+    }
+  ],
+  "best_thresholds": [
+    {
+      "threshold": 0.3,
+      "n": 39932,
+      "wr": 45.4,
+      "avg_pnl": 0.0,
+      "pf": 1.0,
+      "sum_r": 58.9
+    },
+    {
+      "threshold": 0.35,
+      "n": 39932,
+      "wr": 45.4,
+      "avg_pnl": 0.0,
+      "pf": 1.0,
+      "sum_r": 58.9
+    },
+    {
+      "threshold": 0.4,
+      "n": 26590,
+      "wr": 45.1,
+      "avg_pnl": -0.03,
+      "pf": 0.95,
+      "sum_r": -902.0
+    },
+    {
+      "threshold": 0.45,
+      "n": 26590,
+      "wr": 45.1,
+      "avg_pnl": -0.03,
+      "pf": 0.95,
+      "sum_r": -902.0
+    },
+    {
+      "threshold": 0.5,
+      "n": 26590,
+      "wr": 45.1,
+      "avg_pnl": -0.03,
+      "pf": 0.95,
+      "sum_r": -902.0
+    },
+    {
+      "threshold": 0.55,
+      "n": 14818,
+      "wr": 45.6,
+      "avg_pnl": -0.03,
+      "pf": 0.96,
+      "sum_r": -429.2
+    },
+    {
+      "threshold": 0.6,
+      "n": 14818,
+      "wr": 45.6,
+      "avg_pnl": -0.03,
+      "pf": 0.96,
+      "sum_r": -429.2
+    },
+    {
+      "threshold": 0.65,
+      "n": 7160,
+      "wr": 46.4,
+      "avg_pnl": -0.04,
+      "pf": 0.95,
+      "sum_r": -258.3
+    },
+    {
+      "threshold": 0.7,
+      "n": 7160,
+      "wr": 46.4,
+      "avg_pnl": -0.04,
+      "pf": 0.95,
+      "sum_r": -258.3
+    },
+    {
+      "threshold": 0.75,
+      "n": 2723,
+      "wr": 45.3,
+      "avg_pnl": -0.07,
+      "pf": 0.89,
+      "sum_r": -193.8
+    },
+    {
+      "threshold": 0.8,
+      "n": 2723,
+      "wr": 45.3,
+      "avg_pnl": -0.07,
+      "pf": 0.89,
+      "sum_r": -193.8
+    }
+  ],
+  "optimal_threshold": {
+    "threshold": 0.3,
+    "n": 39932,
+    "wr": 45.4,
+    "avg_pnl": 0.0,
+    "pf": 1.0,
+    "sum_r": 58.9
+  }
+}

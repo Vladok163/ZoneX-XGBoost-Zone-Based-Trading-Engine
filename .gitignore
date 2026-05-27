@@ -1,0 +1,15 @@
+﻿.venv/
+.idea/
+__pycache__/
+*.pyc
+*.db
+*.log
+*.zip
+data/*.csv
+results/*.png
+results/*.jpg
+.env
+*_secret*
+*_token*
+.DS_Store
+Thumbs.db

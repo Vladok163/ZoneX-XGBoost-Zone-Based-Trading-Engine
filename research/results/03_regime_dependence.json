@@ -1,0 +1,30 @@
+{
+  "chop": {
+    "n": 33393,
+    "base_wr": 45.8,
+    "best_zones": []
+  },
+  "normal": {
+    "n": 7306,
+    "base_wr": 37.6,
+    "best_zones": []
+  },
+  "trend_down": {
+    "n": 10946,
+    "base_wr": 42.9,
+    "best_zones": []
+  },
+  "trend_up": {
+    "n": 10413,
+    "base_wr": 42.5,
+    "best_zones": []
+  },
+  "volatile": {
+    "n": 20333,
+    "base_wr": 50.9,
+    "best_zones": [
+      "RSI<35 WR=63%",
+      "RSI35-45 WR=57%"
+    ]
+  }
+}

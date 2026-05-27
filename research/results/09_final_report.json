@@ -1,0 +1,31 @@
+{
+  "title": "Quant Research Report",
+  "date": "2026-05-27",
+  "dataset": "11,850 rows × 33 features",
+  "symbols": "80+ USDT pairs",
+  "timeframes": [
+    "15m",
+    "1h",
+    "4h"
+  ],
+  "period": "90 days",
+  "nonlinear_zones": [
+    {
+      "feature": "momentum_4",
+      "zone": "-15..-5",
+      "n": 2190,
+      "wr": 52.9,
+      "pf": 1.44,
+      "avg_pnl": 0.72
+    }
+  ],
+  "best_interactions": 45,
+  "regimes": [
+    "chop",
+    "normal",
+    "trend_down",
+    "trend_up",
+    "volatile"
+  ],
+  "archetypes": 5
+}

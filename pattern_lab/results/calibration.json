@@ -1,0 +1,25 @@
+{
+  "double_top_bottom": {
+    "order": 10,
+    "tolerance": 0.02,
+    "total": 2613,
+    "correct": 1189,
+    "accuracy": 45.5
+  },
+  "triangle": {
+    "accuracy": 28.6,
+    "total": 548
+  },
+  "flag": {
+    "accuracy": 53.7,
+    "total": 883
+  },
+  "wedge": {
+    "accuracy": 49.0,
+    "total": 1383
+  },
+  "head_shoulders": {
+    "accuracy": 43.8,
+    "total": 1599
+  }
+}
