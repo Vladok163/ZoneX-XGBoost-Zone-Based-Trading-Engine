@@ -67,43 +67,55 @@ text
 
 ---
 
+markdown
 ## 🏗️ Architecture
 Market Data (Binance/Bybit)
 │
-┌──────▼──────┐
-│ BTC Regime │ ← trend_up/chop/volatile/trend_down
+▼
+┌─────────────┐
+│ BTC Regime │ ← trend_up / chop / volatile / trend_down
 │ Detection │
 └──────┬──────┘
 │
-┌──────▼──────┐
+▼
+┌─────────────┐
 │ Multi-TF │ ← 15m / 1h / 4h
 │ Scanner │
 └──────┬──────┘
 │
-┌────────────┼────────────┐
-│ │ │
-┌────▼───┐ ┌─────▼──────┐ ┌─▼──────────┐
-│ Zone │ │ Archetype │ │ Interaction │
-│ Scoring │ │ Engine │ │ Layer │
-└────┬───┘ └─────┬──────┘ └─┬──────────┘
+▼
+┌─────────────────────────────────────────┐
+│ Zone Scoring Engine │
+│ ┌──────────┐ ┌──────────┐ ┌──────────┐ │
+│ │ RSI │ │ Momentum │ │ ATR │ │
+│ │ (TF-dep) │ │ (TF-dep) │ │(reg-dep) │ │
+│ └──────────┘ └──────────┘ └──────────┘ │
+│ ┌──────────┐ ┌──────────┐ ┌──────────┐ │
+│ │ Volume │ │Compress │ │ Position │ │
+│ │(reg-dep) │ │(reg-dep) │ │ │ │
+│ └──────────┘ └──────────┘ └──────────┘ │
+└──────────────────┬──────────────────────┘
+│
+┌───────────┼───────────┐
+▼ ▼ ▼
+┌──────────┐ ┌──────────┐ ┌──────────┐
+│Archetype │ │Interaction│ │ Hard │
+│ Engine │ │ Layer │ │ Filters │
+└────┬─────┘ └────┬─────┘ └────┬─────┘
 │ │ │
 └────────────┼────────────┘
 │
-┌──────▼──────┐
-│ Hard │ ← RR/SL/TP/ATR/momentum filters
-│ Filters │
-└──────┬──────┘
-│
-┌──────▼──────┐
-│ XGBoost │ ← Probability output
+▼
+┌──────────────┐
+│ XGBoost │ ← Probability
 │ Ranker │
-└──────┬──────┘
+└──────┬───────┘
 │
-┌──────▼──────┐
+▼
+┌──────────────┐
 │ Trade │
 │ Decision │
-└─────────────┘
-
+└──────────────┘
 text
 
 ---
