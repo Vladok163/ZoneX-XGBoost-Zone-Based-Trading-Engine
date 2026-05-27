@@ -5,9 +5,10 @@ __pycache__/
 *.db
 *.log
 *.zip
-data/*.csv
-results/*.png
-results/*.jpg
+pattern_lab/data/
+pattern_lab/*.csv
+research/results/*.png
+research/results/*.jpg
 .env
 *_secret*
 *_token*
