@@ -6,9 +6,10 @@ __pycache__/
 *.log
 *.zip
 pattern_lab/data/
+pattern_lab/venv/
 pattern_lab/*.csv
+research/ml_dataset_v2.csv
 research/results/*.png
-research/results/*.jpg
 .env
 *_secret*
 *_token*
